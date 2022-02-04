@@ -4566,6 +4566,10 @@
     },
     "MediaPL": {
       "type": "object",
+      "tags": [
+        "Media Management",
+        "createMediaPlayList"
+      ],
       "required": [
         "playListNum",
         "title",
