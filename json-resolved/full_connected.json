@@ -817,7 +817,7 @@
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/CreateMediaPLResponse"
+              "$ref": "#/definitions/CreateMediaPLResp"
             }
           },
           "400": {
@@ -4569,7 +4569,7 @@
         }
       }
     },
-    "CreateMediaPLResponse": {
+    "CreateMediaPLResp": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/MediaPL"
