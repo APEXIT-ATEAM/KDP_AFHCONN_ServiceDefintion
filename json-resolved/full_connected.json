@@ -817,7 +817,7 @@
           "200": {
             "description": "OK",
             "schema": {                            
-                "$ref": "#/definitions/MediaPL"              
+                "$ref": "#/definitions/CreateMediaPLResponse"              
             }
           },
           "400": {
@@ -4270,6 +4270,11 @@
         "ownerAccountName"
       ],
       "properties": {
+		"id": {
+          "type": "string",
+          "format": "uuid",
+          "example": "30040012"
+        },
         "title": {
           "type": "string",
           "format": "uuid",
@@ -4564,6 +4569,12 @@
         }
       }
     },
+	"CreateMediaPLResponse": {
+	  "type": "array",
+	  "items": {
+		"$ref": "#/definitions/MediaPL"
+	  }
+	}
     "MediaPL": {
       "type": "object",
       "required": [
@@ -4677,6 +4688,14 @@
             "order": {
               "type": "integer",
               "format": "int64"
+            },
+			"errorCode": {
+              "type": "string",
+              "format": "uuid"
+            },
+			"errorMessage": {
+              "type": "string",
+              "format": "uuid"
             }
           },
           "example": [
@@ -4693,7 +4712,9 @@
               "lastModifiedBy": "c-0001",
               "transitionTime": 5,
               "enabledFlg": true,
-              "order": 1
+              "order": 1,
+			  "errorCode": "",
+		      "errorMessage": ""
             },
             {
               "mediaId": "1-002",
@@ -4708,7 +4729,9 @@
               "lastModifiedBy": "c-0001",
               "transitionTime": 5,
               "enabledFlg": true,
-              "order": 2
+              "order": 2,
+			  "errorCode": "",
+		      "errorMessage": ""
             },
             {
               "mediaId": "1-003",
@@ -4723,7 +4746,9 @@
               "lastModifiedBy": "c-0001",
               "transitionTime": 5,
               "enabledFlg": true,
-              "order": 3
+              "order": 3,
+			  "errorCode": "",
+		      "errorMessage": ""
             }
           ]
         }
