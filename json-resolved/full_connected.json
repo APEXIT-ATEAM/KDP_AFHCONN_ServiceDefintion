@@ -48,7 +48,7 @@
     "https"
   ],
   "paths": {
-        "/UserList": {
+    "/UserList": {
       "get": {
         "tags": [
           "User Management",
@@ -72,7 +72,7 @@
           {
             "$ref": "#/parameters/requesterID"
           },
-           {
+          {
             "name": "requestedAccountType",
             "in": "query",
             "description": "pass type(Distributor or Business) Account to filter results on user",
@@ -93,7 +93,7 @@
             "required": false,
             "type": "string"
           },
-           {
+          {
             "name": "userId",
             "in": "query",
             "description": "pass one or more optional userId string for looking up user",
@@ -147,7 +147,7 @@
           "200": {
             "description": "search results matching criteria",
             "schema": {
-                "$ref": "#/definitions/UserList"
+              "$ref": "#/definitions/UserList"
             }
           },
           "400": {
@@ -186,7 +186,7 @@
             "description": "pass one or more optional Status string for looking up user",
             "required": false,
             "type": "string"
-          },
+          }
         ],
         "responses": {
           "200": {
@@ -399,7 +399,7 @@
           }
         ],
         "responses": {
-           "200": {
+          "200": {
             "description": "results for reset password (success/failure)",
             "schema": {
               "type": "array",
@@ -762,8 +762,8 @@
         "responses": {
           "200": {
             "description": "results for get Media list",
-            "schema": {                            
-                "$ref": "#/definitions/MediaPLList"              
+            "schema": {
+              "$ref": "#/definitions/MediaPLList"
             }
           },
           "400": {
@@ -816,8 +816,8 @@
         "responses": {
           "200": {
             "description": "OK",
-            "schema": {                            
-                "$ref": "#/definitions/CreateMediaPLResponse"              
+            "schema": {
+              "$ref": "#/definitions/CreateMediaPLResponse"
             }
           },
           "400": {
@@ -870,8 +870,8 @@
         "responses": {
           "200": {
             "description": "results for get Media list",
-            "schema": {                            
-                "$ref": "#/definitions/MediaPL"              
+            "schema": {
+              "$ref": "#/definitions/MediaPL"
             }
           },
           "401": {
@@ -930,8 +930,8 @@
         "responses": {
           "200": {
             "description": "OK",
-            "schema": {                            
-                "$ref": "#/definitions/MediaPL"              
+            "schema": {
+              "$ref": "#/definitions/MediaPL"
             }
           },
           "400": {
@@ -1192,7 +1192,7 @@
         ],
         "parameters": [
           {
-          "name": "KADAccountId",
+            "name": "KADAccountId",
             "in": "query",
             "description": "pass an  KADAccountId string",
             "required": false,
@@ -1776,7 +1776,7 @@
         "summary": "AlertList Detail output (grid)",
         "description": "AlertList",
         "operationId": "AlertList",
-         "security": [
+        "security": [
           {
             "basicAuth": []
           }
@@ -2041,7 +2041,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Media Item Deleted",
+            "description": "Media Item Deleted"
           },
           "400": {
             "description": "invalid input, object invalid"
@@ -2172,7 +2172,7 @@
             "description": "pass an  Playlist string for looking up a playlist",
             "required": true,
             "type": "string"
-          },
+          }
         ],
         "responses": {
           "200": {
@@ -2213,7 +2213,7 @@
         ],
         "responses": {
           "200": {
-             "description": "Playlist Removed"
+            "description": "Playlist Removed"
           },
           "400": {
             "description": "invalid input, object invalid"
@@ -2386,7 +2386,7 @@
           "200": {
             "description": "results for getting brewer details statistic",
             "schema": {
-                "$ref": "#/definitions/BrewerStats"
+              "$ref": "#/definitions/BrewerStats"
             }
           },
           "400": {
@@ -3000,13 +3000,13 @@
           "type": "string",
           "format": "uuid",
           "example": "d-0000001"
-      },
+        },
         "OracledeviceId": {
           "type": "string",
           "format": "uuid",
           "example": "d-0000001"
+        }
       }
-     }
     },
     "BrewerDetailLOV": {
       "type": "object",
@@ -3018,12 +3018,12 @@
         },
         "BrewerDetails": {
           "type": "array",
-           "items": {
+          "items": {
             "$ref": "#/definitions/BrewerDetail"
-           }
+          }
         }
-       }
-      },
+      }
+    },
     "BrewerDetail": {
       "type": "object",
       "required": [
@@ -3088,7 +3088,7 @@
           "format": "uuid",
           "example": "Oracle IOT ID"
         },
-         "deviceId_azure": {
+        "deviceId_azure": {
           "type": "string",
           "format": "uuid",
           "example": "AZURE IOT ID"
@@ -3655,8 +3655,8 @@
         },
         "businessAccount": {
           "type": "array",
-              "items": {
-                "$ref": "#/definitions/UserBusinessAcct"
+          "items": {
+            "$ref": "#/definitions/UserBusinessAcct"
           }
         }
       }
@@ -3689,66 +3689,66 @@
     "UserDetails": {
       "type": "object",
       "required": [
-      "FirstName",
-      "LastName"
+        "FirstName",
+        "LastName"
       ],
       "properties": {
-            "FirstName": {
-              "type": "string",
-              "format": "uuid",
-              "example": "FirstName"
-            },
-            "LastName": {
-              "type": "string",
-              "format": "uuid",
-              "example": "LastName"
-            },
-            "UserId": {
-              "type": "string",
-              "format": "uuid",
-              "example": "UserId"
-            },
-            "EmailAddress": {
-              "type": "string",
-              "format": "uuid",
-              "example": "EmailAddress"
-            },
-            "Status": {
-              "type": "string",
-              "format": "SUCCESS",
-              "example": "Status"
-            },
-            "PartnerNum": {
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/UserKAD"
+        "FirstName": {
+          "type": "string",
+          "format": "uuid",
+          "example": "FirstName"
+        },
+        "LastName": {
+          "type": "string",
+          "format": "uuid",
+          "example": "LastName"
+        },
+        "UserId": {
+          "type": "string",
+          "format": "uuid",
+          "example": "UserId"
+        },
+        "EmailAddress": {
+          "type": "string",
+          "format": "uuid",
+          "example": "EmailAddress"
+        },
+        "Status": {
+          "type": "string",
+          "format": "SUCCESS",
+          "example": "Status"
+        },
+        "PartnerNum": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/UserKAD"
           }
-            },
-            "role": {
-              "type": "string",
-              "format": "uuid",
-              "example": "Technician"
-            },
-            "Address": {
-              "type": "string",
-              "format": "uuid",
-              "example": "Address"
-            },
-            "CreatedDate": {
-              "type": "string",
-              "format": "date-time",
-              "example": "2016-08-29T09:12:33.001Z"
-            },
-            "Role": {
-              "type": "string",
-              "format": "uuid",
-              "example": "Role"
-            },
-            "PhoneNumber": {
-              "type": "string",
-              "format": "uuid",
-              "example": "PhoneNumber"
-            }
+        },
+        "role": {
+          "type": "string",
+          "format": "uuid",
+          "example": "Technician"
+        },
+        "Address": {
+          "type": "string",
+          "format": "uuid",
+          "example": "Address"
+        },
+        "CreatedDate": {
+          "type": "string",
+          "format": "date-time",
+          "example": "2016-08-29T09:12:33.001Z"
+        },
+        "Role": {
+          "type": "string",
+          "format": "uuid",
+          "example": "Role"
+        },
+        "PhoneNumber": {
+          "type": "string",
+          "format": "uuid",
+          "example": "PhoneNumber"
+        }
       }
     },
     "AccountsByConsumptionObject": {
@@ -3759,20 +3759,20 @@
         "CustomerAccountNum",
         "CustomerAccountName",
         "TotalBrews",
-        "AvgPerBrewer",
+        "AvgPerBrewer"
       ],
       "properties": {
-          "DateLastRefreshed": {
+        "DateLastRefreshed": {
           "type": "string",
           "format": "uuid",
           "example": "11/22/2022"
         },
-         "SortOrder": {
+        "SortOrder": {
           "type": "string",
           "format": "uuid",
           "example": "ASC"
         },
-       "Accounts": {
+        "Accounts": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/AccountsByConsumptionList"
@@ -3788,15 +3788,15 @@
         "CustomerAccountNum",
         "CustomerAccountName",
         "TotalBrews",
-        "AvgPerBrewer",
+        "AvgPerBrewer"
       ],
       "properties": {
-          "CustomerAccountId": {
+        "CustomerAccountId": {
           "type": "string",
           "format": "uuid",
           "example": "30000128"
         },
-         "CustomerAccountNum": {
+        "CustomerAccountNum": {
           "type": "string",
           "format": "uuid",
           "example": "FSN123"
@@ -3853,7 +3853,7 @@
     "AlertList": {
       "type": "object",
       "required": [
-        "Count",
+        "Count"
       ],
       "properties": {
         "Count": {
@@ -3861,7 +3861,7 @@
           "format": "uuid",
           "example": "3"
         },
-       "ListOfAlerts": {
+        "ListOfAlerts": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/Alerts"
@@ -4270,7 +4270,7 @@
         "ownerAccountName"
       ],
       "properties": {
-		"id": {
+        "id": {
           "type": "string",
           "format": "uuid",
           "example": "30040012"
@@ -4569,12 +4569,12 @@
         }
       }
     },
-	"CreateMediaPLResponse": {
-	  "type": "array",
-	  "items": {
-		"$ref": "#/definitions/MediaPL"
-	  }
-	},
+    "CreateMediaPLResponse": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/MediaPL"
+      }
+    },
     "MediaPL": {
       "type": "object",
       "required": [
@@ -4689,11 +4689,11 @@
               "type": "integer",
               "format": "int64"
             },
-			"errorCode": {
+            "errorCode": {
               "type": "string",
               "format": "uuid"
             },
-			"errorMessage": {
+            "errorMessage": {
               "type": "string",
               "format": "uuid"
             }
@@ -4713,8 +4713,8 @@
               "transitionTime": 5,
               "enabledFlg": true,
               "order": 1,
-			  "errorCode": "",
-		      "errorMessage": ""
+              "errorCode": "",
+              "errorMessage": ""
             },
             {
               "mediaId": "1-002",
@@ -4730,8 +4730,8 @@
               "transitionTime": 5,
               "enabledFlg": true,
               "order": 2,
-			  "errorCode": "",
-		      "errorMessage": ""
+              "errorCode": "",
+              "errorMessage": ""
             },
             {
               "mediaId": "1-003",
@@ -4747,8 +4747,8 @@
               "transitionTime": 5,
               "enabledFlg": true,
               "order": 3,
-			  "errorCode": "",
-		      "errorMessage": ""
+              "errorCode": "",
+              "errorMessage": ""
             }
           ]
         }
@@ -5134,7 +5134,7 @@
         "RequestorLastName"
       ],
       "properties": {
-       "serialNum": {
+        "serialNum": {
           "type": "string",
           "format": "uuid",
           "example": "4500.000.0000"
@@ -5149,7 +5149,7 @@
           "format": "uuid",
           "example": "Oracle IOT ID"
         },
-         "deviceId_azure": {
+        "deviceId_azure": {
           "type": "string",
           "format": "uuid",
           "example": "AZURE IOT ID"
