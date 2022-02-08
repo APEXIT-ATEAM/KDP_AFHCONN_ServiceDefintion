@@ -4574,7 +4574,7 @@
 	  "items": {
 		"$ref": "#/definitions/MediaPL"
 	  }
-	}
+	},
     "MediaPL": {
       "type": "object",
       "required": [
