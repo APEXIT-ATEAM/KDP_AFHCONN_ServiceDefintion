@@ -20,7 +20,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "PUB_PUSH2SF_request-wrapper"
+              "$ref": "#/definitions/PUB_PUSH2SF_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -52,7 +52,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -104,13 +104,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "POSTREGISTERDEVICE_APIInvocationError"
+              "$ref": "#/definitions/POSTREGISTERDEVICE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "POSTREGISTERDEVICE_response-wrapper"
+              "$ref": "#/definitions/POSTREGISTERDEVICE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -119,7 +119,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "POSTREGISTERDEVICE_request-wrapper"
+              "$ref": "#/definitions/POSTREGISTERDEVICE_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -151,7 +151,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -267,13 +267,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSUPDATEMEDIAPLAYLIST_APIInvocationError"
+              "$ref": "#/definitions/AMSUPDATEMEDIAPLAYLIST_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSUPDATEMEDIAPLAYLIST_response-wrapper"
+              "$ref": "#/definitions/AMSUPDATEMEDIAPLAYLIST_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -300,7 +300,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSUPDATEMEDIAPLAYLIST_request-wrapper"
+              "$ref": "#/definitions/AMSUPDATEMEDIAPLAYLIST_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -331,13 +331,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GETBREWERATTRIBUTESFROMAZURE_APIInvocationError"
+              "$ref": "#/definitions/GETBREWERATTRIBUTESFROMAZURE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "GETBREWERATTRIBUTESFROMAZURE_response-wrapper"
+              "$ref": "#/definitions/GETBREWERATTRIBUTESFROMAZURE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -407,7 +407,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -520,7 +520,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -587,7 +587,7 @@
           },
           {
             "schema": {
-              "$ref": "OIC_NOTIFICATIONSERV_request-wrapper"
+              "$ref": "#/definitions/OIC_NOTIFICATIONSERV_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -618,13 +618,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GCP_TOKEN_GET_APIInvocationError"
+              "$ref": "#/definitions/GCP_TOKEN_GET_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "GCP_TOKEN_GET_response-wrapper"
+              "$ref": "#/definitions/GCP_TOKEN_GET_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -633,7 +633,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "GCP_TOKEN_GET_request-wrapper"
+              "$ref": "#/definitions/GCP_TOKEN_GET_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -664,13 +664,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMGBREWERSTATISTICS_APIInvocationError"
+              "$ref": "#/definitions/AMGBREWERSTATISTICS_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMGBREWERSTATISTICS_response-wrapper"
+              "$ref": "#/definitions/AMGBREWERSTATISTICS_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -738,7 +738,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "POSTREGISTERDEVI_II_request-wrapper"
+              "$ref": "#/definitions/POSTREGISTERDEVI_II_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -769,13 +769,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "UNINSTALLBREWEROIOTCLEANUP_APIInvocationError"
+              "$ref": "#/definitions/UNINSTALLBREWEROIOTCLEANUP_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "UNINSTALLBREWEROIOTCLEANUP_response-wrapper"
+              "$ref": "#/definitions/UNINSTALLBREWEROIOTCLEANUP_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -817,7 +817,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -863,13 +863,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "BREWERSTATSUPDATE_APIInvocationError"
+              "$ref": "#/definitions/BREWERSTATSUPDATE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "BREWERSTATSUPDATE_response-wrapper"
+              "$ref": "#/definitions/BREWERSTATSUPDATE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -884,7 +884,7 @@
           },
           {
             "schema": {
-              "$ref": "BREWERSTATSUPDATE_request-wrapper"
+              "$ref": "#/definitions/BREWERSTATSUPDATE_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -915,13 +915,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "BREWERALERTSUPDATE_APIInvocationError"
+              "$ref": "#/definitions/BREWERALERTSUPDATE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "BREWERALERTSUPDATE_response-wrapper"
+              "$ref": "#/definitions/BREWERALERTSUPDATE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -942,7 +942,7 @@
           },
           {
             "schema": {
-              "$ref": "BREWERALERTSUPDATE_request-wrapper"
+              "$ref": "#/definitions/BREWERALERTSUPDATE_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -973,13 +973,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETUSERINFO_APIInvocationError"
+              "$ref": "#/definitions/AMSGETUSERINFO_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETUSERINFO_response-wrapper"
+              "$ref": "#/definitions/AMSGETUSERINFO_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -1041,7 +1041,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "AMSUPDATEBREWERSTATSREFRESHDTTM_request-wrapper"
+              "$ref": "#/definitions/AMSUPDATEBREWERSTATSREFRESHDTTM_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -1072,13 +1072,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMPUPDATEUSER_APIInvocationError"
+              "$ref": "#/definitions/AMPUPDATEUSER_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMPUPDATEUSER_response-wrapper"
+              "$ref": "#/definitions/AMPUPDATEUSER_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -1099,7 +1099,7 @@
           },
           {
             "schema": {
-              "$ref": "AMPUPDATEUSER_request-wrapper"
+              "$ref": "#/definitions/AMPUPDATEUSER_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -1133,7 +1133,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "ALERTCLOSEINVOKE_request-wrapper"
+              "$ref": "#/definitions/ALERTCLOSEINVOKE_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -1164,13 +1164,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETMEDIAPLAYLISTFORBREWER_APIInvocationError"
+              "$ref": "#/definitions/AMSGETMEDIAPLAYLISTFORBREWER_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETMEDIAPLAYLISTFORBREWER_response-wrapper"
+              "$ref": "#/definitions/AMSGETMEDIAPLAYLISTFORBREWER_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -1252,13 +1252,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMPGETALERTRESOLUTION_APIInvocationError"
+              "$ref": "#/definitions/AMPGETALERTRESOLUTION_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMPGETALERTRESOLUTION_response-wrapper"
+              "$ref": "#/definitions/AMPGETALERTRESOLUTION_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -1286,13 +1286,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETUSERINFOWITHACCOUNTS_APIInvocationError"
+              "$ref": "#/definitions/AMSGETUSERINFOWITHACCOUNTS_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETUSERINFOWITHACCOUNTS_response-wrapper"
+              "$ref": "#/definitions/AMSGETUSERINFOWITHACCOUNTS_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -1346,7 +1346,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSALERTSANDCONSUMPTIONCOUNTS_APIInvocationError"
+              "$ref": "#/definitions/AMSALERTSANDCONSUMPTIONCOUNTS_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -1410,13 +1410,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETBREWERSFORMEDIAPLAYLIST_APIInvocationError"
+              "$ref": "#/definitions/AMSGETBREWERSFORMEDIAPLAYLIST_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETBREWERSFORMEDIAPLAYLIST_response-wrapper"
+              "$ref": "#/definitions/AMSGETBREWERSFORMEDIAPLAYLIST_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -1470,7 +1470,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -1558,13 +1558,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "CREATE_MEDIA_PLAYLIST_OCI_APIInvocationError"
+              "$ref": "#/definitions/CREATE_MEDIA_PLAYLIST_OCI_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "CREATE_MEDIA_PLAYLIST_OCI_response-wrapper"
+              "$ref": "#/definitions/CREATE_MEDIA_PLAYLIST_OCI_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -1585,7 +1585,7 @@
           },
           {
             "schema": {
-              "$ref": "CREATE_MEDIA_PLAYLIST_OCI_request-wrapper"
+              "$ref": "#/definitions/CREATE_MEDIA_PLAYLIST_OCI_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -1616,13 +1616,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "DD_NOTIFY_APIInvocationError"
+              "$ref": "#/definitions/DD_NOTIFY_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "DD_NOTIFY_response-wrapper"
+              "$ref": "#/definitions/DD_NOTIFY_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -1631,7 +1631,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "DD_NOTIFY_request-wrapper"
+              "$ref": "#/definitions/DD_NOTIFY_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -1663,7 +1663,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -1712,7 +1712,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "PUB_IOTREGISTER_request-wrapper"
+              "$ref": "#/definitions/PUB_IOTREGISTER_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -1743,13 +1743,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMPGETMODELTYPE_APIInvocationError"
+              "$ref": "#/definitions/AMPGETMODELTYPE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMPGETMODELTYPE_response-wrapper"
+              "$ref": "#/definitions/AMPGETMODELTYPE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -1777,13 +1777,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSUNINSTALLBREWER_APIInvocationError"
+              "$ref": "#/definitions/AMSUNINSTALLBREWER_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSUNINSTALLBREWER_response-wrapper"
+              "$ref": "#/definitions/AMSUNINSTALLBREWER_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -1810,7 +1810,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSUNINSTALLBREWER_request-wrapper"
+              "$ref": "#/definitions/AMSUNINSTALLBREWER_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -1842,7 +1842,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSMEDIAPLAYLIST_APIInvocationError"
+              "$ref": "#/definitions/AMSMEDIAPLAYLIST_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -1904,7 +1904,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSMEDIAPLAYLIST_APIInvocationError"
+              "$ref": "#/definitions/AMSMEDIAPLAYLIST_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -1956,13 +1956,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSRESETPASSWORD_APIInvocationError"
+              "$ref": "#/definitions/AMSRESETPASSWORD_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSRESETPASSWORD_response-wrapper"
+              "$ref": "#/definitions/AMSRESETPASSWORD_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2027,13 +2027,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "ORACLEIOT_TELEMETRY_ADD_APIInvocationError"
+              "$ref": "#/definitions/ORACLEIOT_TELEMETRY_ADD_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "ORACLEIOT_TELEMETRY_ADD_response-wrapper"
+              "$ref": "#/definitions/ORACLEIOT_TELEMETRY_ADD_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2048,7 +2048,7 @@
           },
           {
             "schema": {
-              "$ref": "ORACLEIOT_TELEMETRY_ADD_request-wrapper"
+              "$ref": "#/definitions/ORACLEIOT_TELEMETRY_ADD_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -2079,13 +2079,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSMANAGEACCOUNTACCESS_APIInvocationError"
+              "$ref": "#/definitions/AMSMANAGEACCOUNTACCESS_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSMANAGEACCOUNTACCESS_response-wrapper"
+              "$ref": "#/definitions/AMSMANAGEACCOUNTACCESS_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2112,7 +2112,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSMANAGEACCOUNTACCESS_request-wrapper"
+              "$ref": "#/definitions/AMSMANAGEACCOUNTACCESS_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -2143,13 +2143,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSCREATEOFFICEACCOUNT_APIInvocationError"
+              "$ref": "#/definitions/AMSCREATEOFFICEACCOUNT_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSCREATEOFFICEACCOUNT_response-wrapper"
+              "$ref": "#/definitions/AMSCREATEOFFICEACCOUNT_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2170,7 +2170,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSCREATEOFFICEACCOUNT_request-wrapper"
+              "$ref": "#/definitions/AMSCREATEOFFICEACCOUNT_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -2201,13 +2201,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETUSERINFO_APIInvocationError"
+              "$ref": "#/definitions/AMSGETUSERINFO_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETUSERINFO_response-wrapper"
+              "$ref": "#/definitions/AMSGETUSERINFO_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2281,7 +2281,7 @@
           },
           {
             "schema": {
-              "$ref": "OEC_OKTA_UPDATE_request-wrapper"
+              "$ref": "#/definitions/OEC_OKTA_UPDATE_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -2312,13 +2312,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GETPODSCONSUMED_APIInvocationError"
+              "$ref": "#/definitions/GETPODSCONSUMED_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "GETPODSCONSUMED_response-wrapper"
+              "$ref": "#/definitions/GETPODSCONSUMED_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2378,7 +2378,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GETCOUNTRYDATA_APIInvocationError"
+              "$ref": "#/definitions/GETCOUNTRYDATA_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -2418,13 +2418,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GETBREWRANK_APIInvocationError"
+              "$ref": "#/definitions/GETBREWRANK_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "GETBREWRANK_response-wrapper"
+              "$ref": "#/definitions/GETBREWRANK_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2466,7 +2466,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -2541,13 +2541,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETUSERINFOWITHROLEINFO_APIInvocationError"
+              "$ref": "#/definitions/AMSGETUSERINFOWITHROLEINFO_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETUSERINFOWITHROLEINFO_response-wrapper"
+              "$ref": "#/definitions/AMSGETUSERINFOWITHROLEINFO_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2606,13 +2606,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GET_ACCOUNTS_BY_HIERARCH_APIInvocationError"
+              "$ref": "#/definitions/GET_ACCOUNTS_BY_HIERARCH_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "GET_ACCOUNTS_BY_HIERARCH_response-wrapper"
+              "$ref": "#/definitions/GET_ACCOUNTS_BY_HIERARCH_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2653,13 +2653,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETAMPUSERINF_CALLER_APIInvocationError"
+              "$ref": "#/definitions/AMSGETAMPUSERINF_CALLER_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETAMPUSERINF_CALLER_response-wrapper"
+              "$ref": "#/definitions/AMSGETAMPUSERINF_CALLER_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2712,13 +2712,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "UNINSTALLBREWERAZUREIOTCLEANUP_APIInvocationError"
+              "$ref": "#/definitions/UNINSTALLBREWERAZUREIOTCLEANUP_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "UNINSTALLBREWERAZUREIOTCLEANUP_response-wrapper"
+              "$ref": "#/definitions/UNINSTALLBREWERAZUREIOTCLEANUP_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2753,13 +2753,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSREPAIRBREWER_APIInvocationError"
+              "$ref": "#/definitions/AMSREPAIRBREWER_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSREPAIRBREWER_response-wrapper"
+              "$ref": "#/definitions/AMSREPAIRBREWER_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2780,7 +2780,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSREPAIRBREWER_request-wrapper"
+              "$ref": "#/definitions/AMSREPAIRBREWER_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -2811,13 +2811,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "PUSHALERT2SF_APIInvocationError"
+              "$ref": "#/definitions/PUSHALERT2SF_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "PUSHALERT2SF_response-wrapper"
+              "$ref": "#/definitions/PUSHALERT2SF_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -2826,7 +2826,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "PUSHALERT2SF_request-wrapper"
+              "$ref": "#/definitions/PUSHALERT2SF_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -2858,7 +2858,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -2905,7 +2905,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -2951,13 +2951,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSCONSUMPTIONREPORT_APIInvocationError"
+              "$ref": "#/definitions/AMSCONSUMPTIONREPORT_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSCONSUMPTIONREPORT_response-wrapper"
+              "$ref": "#/definitions/AMSCONSUMPTIONREPORT_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -3046,7 +3046,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -3093,7 +3093,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETBREWERLIST_APIInvocationError"
+              "$ref": "#/definitions/AMSGETBREWERLIST_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -3238,7 +3238,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "ALERTCLOSE_request-wrapper"
+              "$ref": "#/definitions/ALERTCLOSE_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -3269,13 +3269,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMPCREATEUSER_APIInvocationError"
+              "$ref": "#/definitions/AMPCREATEUSER_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMPCREATEUSER_response-wrapper"
+              "$ref": "#/definitions/AMPCREATEUSER_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -3296,7 +3296,7 @@
           },
           {
             "schema": {
-              "$ref": "AMPCREATEUSER_request-wrapper"
+              "$ref": "#/definitions/AMPCREATEUSER_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -3357,7 +3357,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -3403,13 +3403,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "PUSHALERT2SF_APIInvocationError"
+              "$ref": "#/definitions/PUSHALERT2SF_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "PUSHALERT2SF_response-wrapper"
+              "$ref": "#/definitions/PUSHALERT2SF_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -3418,7 +3418,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "PUSHALERT2SF_request-wrapper"
+              "$ref": "#/definitions/PUSHALERT2SF_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -3449,13 +3449,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETFILEFROMOCI_APIInvocationError"
+              "$ref": "#/definitions/AMSGETFILEFROMOCI_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETFILEFROMOCI_response-wrapper"
+              "$ref": "#/definitions/AMSGETFILEFROMOCI_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -3464,7 +3464,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "AMSGETFILEFROMOCI_request-wrapper"
+              "$ref": "#/definitions/AMSGETFILEFROMOCI_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -3496,7 +3496,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -3542,13 +3542,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "UNINSTALLBREWEROECUPDATE_APIInvocationError"
+              "$ref": "#/definitions/UNINSTALLBREWEROECUPDATE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "UNINSTALLBREWEROECUPDATE_response-wrapper"
+              "$ref": "#/definitions/UNINSTALLBREWEROECUPDATE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -3563,7 +3563,7 @@
           },
           {
             "schema": {
-              "$ref": "UNINSTALLBREWEROECUPDATE_request-wrapper"
+              "$ref": "#/definitions/UNINSTALLBREWEROECUPDATE_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -3594,13 +3594,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSREGISTERBREWER_APIInvocationError"
+              "$ref": "#/definitions/AMSREGISTERBREWER_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSREGISTERBREWER_response-wrapper"
+              "$ref": "#/definitions/AMSREGISTERBREWER_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -3621,7 +3621,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSREGISTERBREWER_request-wrapper"
+              "$ref": "#/definitions/AMSREGISTERBREWER_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -3652,13 +3652,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSUPDATEACCOUNT_APIInvocationError"
+              "$ref": "#/definitions/AMSUPDATEACCOUNT_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSUPDATEACCOUNT_response-wrapper"
+              "$ref": "#/definitions/AMSUPDATEACCOUNT_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -3679,7 +3679,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSUPDATEACCOUNT_request-wrapper"
+              "$ref": "#/definitions/AMSUPDATEACCOUNT_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -3710,13 +3710,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GETALERTMESSAGES_INDIV_APIInvocationError"
+              "$ref": "#/definitions/GETALERTMESSAGES_INDIV_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "GETALERTMESSAGES_INDIV_response-wrapper"
+              "$ref": "#/definitions/GETALERTMESSAGES_INDIV_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -3815,13 +3815,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "UNINSTALLBREWERAZURERESET_APIInvocationError"
+              "$ref": "#/definitions/UNINSTALLBREWERAZURERESET_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "UNINSTALLBREWERAZURERESET_response-wrapper"
+              "$ref": "#/definitions/UNINSTALLBREWERAZURERESET_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -3856,13 +3856,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GETALERTMESSAGES_APIInvocationError"
+              "$ref": "#/definitions/GETALERTMESSAGES_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "GETALERTMESSAGES_response-wrapper"
+              "$ref": "#/definitions/GETALERTMESSAGES_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -3969,13 +3969,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "CREATE_MEDIA_PLAYLIST_APIInvocationError"
+              "$ref": "#/definitions/CREATE_MEDIA_PLAYLIST_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "CREATE_MEDIA_PLAYLIST_response-wrapper"
+              "$ref": "#/definitions/CREATE_MEDIA_PLAYLIST_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -3996,7 +3996,7 @@
           },
           {
             "schema": {
-              "$ref": "CREATE_MEDIA_PLAYLIST_request-wrapper"
+              "$ref": "#/definitions/CREATE_MEDIA_PLAYLIST_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -4028,7 +4028,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMPIDCSCREATEUSER_APIInvocationError"
+              "$ref": "#/definitions/AMPIDCSCREATEUSER_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -4073,13 +4073,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "UNINSTALLBREWERSRUPDATE_APIInvocationError"
+              "$ref": "#/definitions/UNINSTALLBREWERSRUPDATE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "UNINSTALLBREWERSRUPDATE_response-wrapper"
+              "$ref": "#/definitions/UNINSTALLBREWERSRUPDATE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -4088,7 +4088,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "UNINSTALLBREWERSRUPDATE_request-wrapper"
+              "$ref": "#/definitions/UNINSTALLBREWERSRUPDATE_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -4120,7 +4120,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSMEDIAPLAYLIST_APIInvocationError"
+              "$ref": "#/definitions/AMSMEDIAPLAYLIST_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -4172,13 +4172,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GETALERTMESSAGES_APIInvocationError"
+              "$ref": "#/definitions/GETALERTMESSAGES_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "GETALERTMESSAGES_response-wrapper"
+              "$ref": "#/definitions/GETALERTMESSAGES_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -4243,13 +4243,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSBREWERLISTCACHEUPDATER_APIInvocationError"
+              "$ref": "#/definitions/AMSBREWERLISTCACHEUPDATER_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSBREWERLISTCACHEUPDATER_response-wrapper"
+              "$ref": "#/definitions/AMSBREWERLISTCACHEUPDATER_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -4284,13 +4284,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMPGETSTATELOV_APIInvocationError"
+              "$ref": "#/definitions/AMPGETSTATELOV_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMPGETSTATELOV_response-wrapper"
+              "$ref": "#/definitions/AMPGETSTATELOV_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -4318,13 +4318,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AUTOCR_SR_FOR_IOT_INCIDE_APIInvocationError"
+              "$ref": "#/definitions/AUTOCR_SR_FOR_IOT_INCIDE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AUTOCR_SR_FOR_IOT_INCIDE_response-wrapper"
+              "$ref": "#/definitions/AUTOCR_SR_FOR_IOT_INCIDE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -4333,7 +4333,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "AUTOCR_SR_FOR_IOT_INCIDE_request-wrapper"
+              "$ref": "#/definitions/AUTOCR_SR_FOR_IOT_INCIDE_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -4364,13 +4364,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMPGETROLEFEATUREATTRIBUTEPERMIS_APIInvocationError"
+              "$ref": "#/definitions/AMPGETROLEFEATUREATTRIBUTEPERMIS_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMPGETROLEFEATUREATTRIBUTEPERMIS_response-wrapper"
+              "$ref": "#/definitions/AMPGETROLEFEATUREATTRIBUTEPERMIS_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -4405,13 +4405,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETAMPUSERINFOWITHACCOUNTS_APIInvocationError"
+              "$ref": "#/definitions/AMSGETAMPUSERINFOWITHACCOUNTS_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETAMPUSERINFOWITHACCOUNTS_response-wrapper"
+              "$ref": "#/definitions/AMSGETAMPUSERINFOWITHACCOUNTS_response-wrapper"
             },
             "headers": {
               "UserInAccount": {
@@ -4475,13 +4475,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GETCONSUMPTIONLISTS_APIInvocationError"
+              "$ref": "#/definitions/GETCONSUMPTIONLISTS_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "GETCONSUMPTIONLISTS_response-wrapper"
+              "$ref": "#/definitions/GETCONSUMPTIONLISTS_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -4600,13 +4600,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "BREWERALERTSUPDATE_APIInvocationError"
+              "$ref": "#/definitions/BREWERALERTSUPDATE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "BREWERALERTSUPDATE_response-wrapper"
+              "$ref": "#/definitions/BREWERALERTSUPDATE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -4627,7 +4627,7 @@
           },
           {
             "schema": {
-              "$ref": "BREWERALERTSUPDATE_request-wrapper"
+              "$ref": "#/definitions/BREWERALERTSUPDATE_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -4658,13 +4658,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "UNINSTALLBREWERSRCREATE_APIInvocationError"
+              "$ref": "#/definitions/UNINSTALLBREWERSRCREATE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "UNINSTALLBREWERSRCREATE_response-wrapper"
+              "$ref": "#/definitions/UNINSTALLBREWERSRCREATE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -4685,7 +4685,7 @@
           },
           {
             "schema": {
-              "$ref": "UNINSTALLBREWERSRCREATE_request-wrapper"
+              "$ref": "#/definitions/UNINSTALLBREWERSRCREATE_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -4717,7 +4717,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSALERTSANDCONSUMPTIONCOUNTS_APIInvocationError"
+              "$ref": "#/definitions/AMSALERTSANDCONSUMPTIONCOUNTS_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -4781,13 +4781,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETBREWERDETAIL_APIInvocationError"
+              "$ref": "#/definitions/AMSGETBREWERDETAIL_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETBREWERDETAIL_response-wrapper"
+              "$ref": "#/definitions/AMSGETBREWERDETAIL_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -4843,7 +4843,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "ADDUSER2BIZACCOUNTBO_request-wrapper"
+              "$ref": "#/definitions/ADDUSER2BIZACCOUNTBO_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -4875,7 +4875,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -4927,13 +4927,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSREPAIRSREXIST_APIInvocationError"
+              "$ref": "#/definitions/AMSREPAIRSREXIST_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSREPAIRSREXIST_response-wrapper"
+              "$ref": "#/definitions/AMSREPAIRSREXIST_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -4954,7 +4954,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSREPAIRSREXIST_request-wrapper"
+              "$ref": "#/definitions/AMSREPAIRSREXIST_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -4988,7 +4988,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "BREWERHIER_PUB_request-wrapper"
+              "$ref": "#/definitions/BREWERHIER_PUB_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -5019,13 +5019,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "RESOLVEALLBREWERALERTS_APIInvocationError"
+              "$ref": "#/definitions/RESOLVEALLBREWERALERTS_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "RESOLVEALLBREWERALERTS_response-wrapper"
+              "$ref": "#/definitions/RESOLVEALLBREWERALERTS_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -5034,7 +5034,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "RESOLVEALLBREWERALERTS_request-wrapper"
+              "$ref": "#/definitions/RESOLVEALLBREWERALERTS_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -5066,7 +5066,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GETCOUNTRYDATA_APIInvocationError"
+              "$ref": "#/definitions/GETCOUNTRYDATA_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -5112,13 +5112,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETBUSINESSACCOUNTCONTACT_APIInvocationError"
+              "$ref": "#/definitions/AMSGETBUSINESSACCOUNTCONTACT_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETBUSINESSACCOUNTCONTACT_response-wrapper"
+              "$ref": "#/definitions/AMSGETBUSINESSACCOUNTCONTACT_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -5168,7 +5168,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "ADDUSER2KADACCOUNTBO_request-wrapper"
+              "$ref": "#/definitions/ADDUSER2KADACCOUNTBO_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -5202,7 +5202,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "REGISTEREDACCOUNTPUB_request-wrapper"
+              "$ref": "#/definitions/REGISTEREDACCOUNTPUB_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -5236,7 +5236,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "ADDUSER2USERBO_request-wrapper"
+              "$ref": "#/definitions/ADDUSER2USERBO_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -5268,7 +5268,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -5314,13 +5314,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "RESEND_INVITE_APIInvocationError"
+              "$ref": "#/definitions/RESEND_INVITE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "RESEND_INVITE_response-wrapper"
+              "$ref": "#/definitions/RESEND_INVITE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -5341,7 +5341,7 @@
           },
           {
             "schema": {
-              "$ref": "RESEND_INVITE_request-wrapper"
+              "$ref": "#/definitions/RESEND_INVITE_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -5372,13 +5372,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GETALERTMESSAGES_APIInvocationError"
+              "$ref": "#/definitions/GETALERTMESSAGES_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "GETALERTMESSAGES_response-wrapper"
+              "$ref": "#/definitions/GETALERTMESSAGES_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -5503,13 +5503,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMPUPDATEUSER_APIInvocationError"
+              "$ref": "#/definitions/AMPUPDATEUSER_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMPUPDATEUSER_response-wrapper"
+              "$ref": "#/definitions/AMPUPDATEUSER_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -5530,7 +5530,7 @@
           },
           {
             "schema": {
-              "$ref": "AMPUPDATEUSER_request-wrapper"
+              "$ref": "#/definitions/AMPUPDATEUSER_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -5561,13 +5561,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSCREATEMEDIAPLAYLIST_APIInvocationError"
+              "$ref": "#/definitions/AMSCREATEMEDIAPLAYLIST_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSCREATEMEDIAPLAYLIST_response-wrapper"
+              "$ref": "#/definitions/AMSCREATEMEDIAPLAYLIST_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -5588,7 +5588,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSCREATEMEDIAPLAYLIST_request-wrapper"
+              "$ref": "#/definitions/AMSCREATEMEDIAPLAYLIST_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -5619,13 +5619,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSSUBMITINSTALLATIONREQUEST_APIInvocationError"
+              "$ref": "#/definitions/AMSSUBMITINSTALLATIONREQUEST_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSSUBMITINSTALLATIONREQUEST_response-wrapper"
+              "$ref": "#/definitions/AMSSUBMITINSTALLATIONREQUEST_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -5646,7 +5646,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSSUBMITINSTALLATIONREQUEST_request-wrapper"
+              "$ref": "#/definitions/AMSSUBMITINSTALLATIONREQUEST_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -5677,13 +5677,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "UNINSTALLREFRESHBREWERDETAIL_APIInvocationError"
+              "$ref": "#/definitions/UNINSTALLREFRESHBREWERDETAIL_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "UNINSTALLREFRESHBREWERDETAIL_response-wrapper"
+              "$ref": "#/definitions/UNINSTALLREFRESHBREWERDETAIL_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -5736,13 +5736,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_EXAMPLE_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_EXAMPLE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "SNOWFLAKE_EXAMPLE_response-wrapper"
+              "$ref": "#/definitions/SNOWFLAKE_EXAMPLE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -5855,13 +5855,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "CONSUMPTIONCOUNT2_APIInvocationError"
+              "$ref": "#/definitions/CONSUMPTIONCOUNT2_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "CONSUMPTIONCOUNT2_response-wrapper"
+              "$ref": "#/definitions/CONSUMPTIONCOUNT2_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -5920,13 +5920,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSUPDATEBREWERDETAILS_APIInvocationError"
+              "$ref": "#/definitions/AMSUPDATEBREWERDETAILS_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSUPDATEBREWERDETAILS_response-wrapper"
+              "$ref": "#/definitions/AMSUPDATEBREWERDETAILS_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -5947,7 +5947,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSUPDATEBREWERDETAILS_request-wrapper"
+              "$ref": "#/definitions/AMSUPDATEBREWERDETAILS_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -5978,13 +5978,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "CREATE_MEDIA_PLAYLIST_ITEMS_APIInvocationError"
+              "$ref": "#/definitions/CREATE_MEDIA_PLAYLIST_ITEMS_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "CREATE_MEDIA_PLAYLIST_ITEMS_response-wrapper"
+              "$ref": "#/definitions/CREATE_MEDIA_PLAYLIST_ITEMS_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6005,7 +6005,7 @@
           },
           {
             "schema": {
-              "$ref": "CREATE_MEDIA_PLAYLIST_ITEMS_request-wrapper"
+              "$ref": "#/definitions/CREATE_MEDIA_PLAYLIST_ITEMS_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -6036,13 +6036,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETUSERINFOWI_POPULATE_APIInvocationError"
+              "$ref": "#/definitions/AMSGETUSERINFOWI_POPULATE_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETUSERINFOWI_POPULATE_response-wrapper"
+              "$ref": "#/definitions/AMSGETUSERINFOWI_POPULATE_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6095,13 +6095,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "PUSHOECIDFILE2SF_APIInvocationError"
+              "$ref": "#/definitions/PUSHOECIDFILE2SF_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "PUSHOECIDFILE2SF_response-wrapper"
+              "$ref": "#/definitions/PUSHOECIDFILE2SF_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6116,7 +6116,7 @@
           },
           {
             "schema": {
-              "$ref": "PUSHOECIDFILE2SF_request-wrapper"
+              "$ref": "#/definitions/PUSHOECIDFILE2SF_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -6147,13 +6147,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AESENCRYPT_APIInvocationError"
+              "$ref": "#/definitions/AESENCRYPT_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AESENCRYPT_response-wrapper"
+              "$ref": "#/definitions/AESENCRYPT_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6162,7 +6162,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "AESENCRYPT_request-wrapper"
+              "$ref": "#/definitions/AESENCRYPT_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -6193,13 +6193,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "REPAIRBREWER_APIInvocationError"
+              "$ref": "#/definitions/REPAIRBREWER_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "REPAIRBREWER_response-wrapper"
+              "$ref": "#/definitions/REPAIRBREWER_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6220,7 +6220,7 @@
           },
           {
             "schema": {
-              "$ref": "REPAIRBREWER_request-wrapper"
+              "$ref": "#/definitions/REPAIRBREWER_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -6251,13 +6251,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETBREWERDETAILINSTALL_APIInvocationError"
+              "$ref": "#/definitions/AMSGETBREWERDETAILINSTALL_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETBREWERDETAILINSTALL_response-wrapper"
+              "$ref": "#/definitions/AMSGETBREWERDETAILINSTALL_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6304,13 +6304,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "PUSHBREWERHIER2SF_APIInvocationError"
+              "$ref": "#/definitions/PUSHBREWERHIER2SF_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "PUSHBREWERHIER2SF_response-wrapper"
+              "$ref": "#/definitions/PUSHBREWERHIER2SF_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6319,7 +6319,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "PUSHBREWERHIER2SF_request-wrapper"
+              "$ref": "#/definitions/PUSHBREWERHIER2SF_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -6351,7 +6351,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "CONSUMPTIONCOUNT_APIInvocationError"
+              "$ref": "#/definitions/CONSUMPTIONCOUNT_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -6418,7 +6418,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "BREWERSTATSPUBLISH_request-wrapper"
+              "$ref": "#/definitions/BREWERSTATSPUBLISH_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -6449,13 +6449,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "PUSHBREWERHIER2SF_APIInvocationError"
+              "$ref": "#/definitions/PUSHBREWERHIER2SF_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "PUSHBREWERHIER2SF_response-wrapper"
+              "$ref": "#/definitions/PUSHBREWERHIER2SF_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6464,7 +6464,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "PUSHBREWERHIER2SF_request-wrapper"
+              "$ref": "#/definitions/PUSHBREWERHIER2SF_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -6495,13 +6495,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GETAMPLASTSUCCESSFULLOGIN_APIInvocationError"
+              "$ref": "#/definitions/GETAMPLASTSUCCESSFULLOGIN_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "GETAMPLASTSUCCESSFULLOGIN_response-wrapper"
+              "$ref": "#/definitions/GETAMPLASTSUCCESSFULLOGIN_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6561,7 +6561,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSBREWERLISTCACHEREADER_APIInvocationError"
+              "$ref": "#/definitions/AMSBREWERLISTCACHEREADER_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -6704,7 +6704,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -6750,13 +6750,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSUPLOADMEDIAPLAYLISTITEMS_APIInvocationError"
+              "$ref": "#/definitions/AMSUPLOADMEDIAPLAYLISTITEMS_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSUPLOADMEDIAPLAYLISTITEMS_response-wrapper"
+              "$ref": "#/definitions/AMSUPLOADMEDIAPLAYLISTITEMS_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6777,7 +6777,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSUPLOADMEDIAPLAYLISTITEMS_request-wrapper"
+              "$ref": "#/definitions/AMSUPLOADMEDIAPLAYLISTITEMS_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -6808,13 +6808,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "PUSH2ALERTBO_APIInvocationError"
+              "$ref": "#/definitions/PUSH2ALERTBO_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "PUSH2ALERTBO_response-wrapper"
+              "$ref": "#/definitions/PUSH2ALERTBO_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6823,7 +6823,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "PUSH2ALERTBO_request-wrapper"
+              "$ref": "#/definitions/PUSH2ALERTBO_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -6869,7 +6869,7 @@
           },
           {
             "schema": {
-              "$ref": "UNINSTALLBREWERMAININTEGRATION_request-wrapper"
+              "$ref": "#/definitions/UNINSTALLBREWERMAININTEGRATION_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -6900,13 +6900,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSCREATEACCOUNT_APIInvocationError"
+              "$ref": "#/definitions/AMSCREATEACCOUNT_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSCREATEACCOUNT_response-wrapper"
+              "$ref": "#/definitions/AMSCREATEACCOUNT_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6927,7 +6927,7 @@
           },
           {
             "schema": {
-              "$ref": "AMSCREATEACCOUNT_request-wrapper"
+              "$ref": "#/definitions/AMSCREATEACCOUNT_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -6958,13 +6958,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "IMPORTASSETSINTOOIOT_APIInvocationError"
+              "$ref": "#/definitions/IMPORTASSETSINTOOIOT_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "IMPORTASSETSINTOOIOT_response-wrapper"
+              "$ref": "#/definitions/IMPORTASSETSINTOOIOT_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6973,7 +6973,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "IMPORTASSETSINTOOIOT_request-wrapper"
+              "$ref": "#/definitions/IMPORTASSETSINTOOIOT_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -7004,13 +7004,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETBUSINESSACCOUNTBYKADACCOUN_APIInvocationError"
+              "$ref": "#/definitions/AMSGETBUSINESSACCOUNTBYKADACCOUN_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETBUSINESSACCOUNTBYKADACCOUN_response-wrapper"
+              "$ref": "#/definitions/AMSGETBUSINESSACCOUNTBYKADACCOUN_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -7064,7 +7064,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -7139,7 +7139,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETBREWERLIST_APIInvocationError"
+              "$ref": "#/definitions/AMSGETBREWERLIST_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -7281,13 +7281,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSNEWESTBREWERSWEEKLY_APIInvocationError"
+              "$ref": "#/definitions/AMSNEWESTBREWERSWEEKLY_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSNEWESTBREWERSWEEKLY_response-wrapper"
+              "$ref": "#/definitions/AMSNEWESTBREWERSWEEKLY_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -7340,13 +7340,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "GETCONSUMPTIONLI_INDIV_APIInvocationError"
+              "$ref": "#/definitions/GETCONSUMPTIONLI_INDIV_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "GETCONSUMPTIONLI_INDIV_response-wrapper"
+              "$ref": "#/definitions/GETCONSUMPTIONLI_INDIV_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -7448,7 +7448,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -7495,7 +7495,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -7598,7 +7598,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "IOTGROUP_PUT_request-wrapper"
+              "$ref": "#/definitions/IOTGROUP_PUT_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -7629,13 +7629,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "PUB2OIOTACCOUNT_APIInvocationError"
+              "$ref": "#/definitions/PUB2OIOTACCOUNT_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "PUB2OIOTACCOUNT_response-wrapper"
+              "$ref": "#/definitions/PUB2OIOTACCOUNT_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -7644,7 +7644,7 @@
         "parameters": [
           {
             "schema": {
-              "$ref": "PUB2OIOTACCOUNT_request-wrapper"
+              "$ref": "#/definitions/PUB2OIOTACCOUNT_request-wrapper"
             },
             "in": "body",
             "name": "request-wrapper",
@@ -7675,13 +7675,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETUSERLIST_APIInvocationError"
+              "$ref": "#/definitions/AMSGETUSERLIST_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETUSERLIST_response-wrapper"
+              "$ref": "#/definitions/AMSGETUSERLIST_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -7777,7 +7777,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
@@ -7877,13 +7877,13 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "AMSGETKADACCOUNTNAMEFILTER_APIInvocationError"
+              "$ref": "#/definitions/AMSGETKADACCOUNTNAMEFILTER_APIInvocationError"
             },
             "description": "Faults"
           },
           "default": {
             "schema": {
-              "$ref": "AMSGETKADACCOUNTNAMEFILTER_response-wrapper"
+              "$ref": "#/definitions/AMSGETKADACCOUNTNAMEFILTER_response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -8027,7 +8027,7 @@
         "responses": {
           "500": {
             "schema": {
-              "$ref": "SNOWFLAKE_GET_APIInvocationError"
+              "$ref": "#/definitions/SNOWFLAKE_GET_APIInvocationError"
             },
             "description": "Faults"
           },
