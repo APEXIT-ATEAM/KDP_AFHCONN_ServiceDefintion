@@ -10,7 +10,7 @@
   },
   "host": "virtserver.swaggerhub.com",
   "basePath": "/ic/api/integration/v1/flows/rest",
-  "schemes": [
+  "schemas": [
     "https"
   ],
   "tags": [
