@@ -1,5 +1,500 @@
 {
+  "swagger": "2.0",
+  "info": {
+    "contact": {
+      "email": "bryan.arndorfer_ex@kdrp.com"
+    },
+    "description": "These are OIC Integration APIs for Brewer Management",
+    "title": "AMP OIC APIs",
+    "version": "1.0.0"
+  },
+  "host": "virtserver.swaggerhub.com",
   "basePath": "/ic/api/integration/v1/flows/rest",
+  "schemes": [
+    "https"
+  ],
+  "tags": [
+    {
+      "name": "SNOWFLAKE_GET",
+      "description": "SNOWFLAKE GET"
+    },
+    {
+      "name": "BREWERSTATSUPDATE",
+      "description": "BREWERSTATSUPDATE"
+    },
+    {
+      "name": "AMSGETUSERINFOWI_POPULATE",
+      "description": "AMSGETUSERINFOWI POPULATE"
+    },
+    {
+      "name": "DD_NOTIFY",
+      "description": "DD NOTIFY"
+    },
+    {
+      "name": "OIC_NOTIFICATIONSERV",
+      "description": "OIC NOTIFICATIONSERV"
+    },
+    {
+      "name": "AMSGETBREWERLIST",
+      "description": "AMSGETBREWERLIST"
+    },
+    {
+      "name": "AMSGETBREWERLIST",
+      "description": "AMSGETBREWERLIST"
+    },
+    {
+      "name": "AMSBREWERLISTCACHEUPDATER",
+      "description": "AMSBREWERLISTCACHEUPDATER"
+    },
+    {
+      "name": "AMSGETBREWERDETAILINSTALL",
+      "description": "AMSGETBREWERDETAILINSTALL"
+    },
+    {
+      "name": "GETBREWERATTRIBUTESFROMAZURE",
+      "description": "GETBREWERATTRIBUTESFROMAZURE"
+    },
+    {
+      "name": "AMSGETBREWERDETAIL",
+      "description": "AMSGETBREWERDETAIL"
+    },
+    {
+      "name": "UNINSTALLBREWERAZUREIOTCLEANUP",
+      "description": "UNINSTALLBREWERAZUREIOTCLEANUP"
+    },
+    {
+      "name": "AMSREGISTERBREWER",
+      "description": "AMSREGISTERBREWER"
+    },
+    {
+      "name": "UNINSTALLBREWERAZURERESET",
+      "description": "UNINSTALLBREWERAZURERESET"
+    },
+    {
+      "name": "POSTREGISTERDEVICEACTIVATESIM",
+      "description": "POSTREGISTERDEVICEACTIVATESIM"
+    },
+    {
+      "name": "GETALERTMESSAGES",
+      "description": "GETALERTMESSAGES"
+    },
+    {
+      "name": "AMSGETUSERINFO",
+      "description": "AMSGETUSERINFO"
+    },
+    {
+      "name": "AMSGETUSERINFOWITHACCOUNTS",
+      "description": "AMSGETUSERINFOWITHACCOUNTS"
+    },
+    {
+      "name": "ADDUSER2USERBO",
+      "description": "ADDUSER2USERBO"
+    },
+    {
+      "name": "AMSALERTSANDCONSUMPTIONCOUNTS",
+      "description": "AMSALERTSANDCONSUMPTIONCOUNTS"
+    },
+    {
+      "name": "AMSGETUSERINFOWITHROLEINFO",
+      "description": "AMSGETUSERINFOWITHROLEINFO"
+    },
+    {
+      "name": "GETCONSUMPTIONLISTS",
+      "description": "GETCONSUMPTIONLISTS"
+    },
+    {
+      "name": "AMSUNINSTALLBREWER",
+      "description": "AMSUNINSTALLBREWER"
+    },
+    {
+      "name": "PUSH2ALERTBO",
+      "description": "PUSH2ALERTBO"
+    },
+    {
+      "name": "PUSHBREWERHIER2SF",
+      "description": "PUSHBREWERHIER2SF"
+    },
+    {
+      "name": "GETBREWRANK",
+      "description": "GETBREWRANK"
+    },
+    {
+      "name": "SNOWFLAKE_GET",
+      "description": "SNOWFLAKE GET"
+    },
+    {
+      "name": "CONSUMPTIONCOUNT2",
+      "description": "CONSUMPTIONCOUNT2"
+    },
+    {
+      "name": "AMSNEWESTBREWERSWEEKLY",
+      "description": "AMSNEWESTBREWERSWEEKLY"
+    },
+    {
+      "name": "UNINSTALLBREWERMAININTEGRATION",
+      "description": "UNINSTALLBREWERMAININTEGRATION"
+    },
+    {
+      "name": "AMSMANAGEACCOUNTACCESS",
+      "description": "AMSMANAGEACCOUNTACCESS"
+    },
+    {
+      "name": "GETALERTMESSAGES",
+      "description": "GETALERTMESSAGES"
+    },
+    {
+      "name": "PUSHALERT2SF",
+      "description": "PUSHALERT2SF"
+    },
+    {
+      "name": "AMSCONSUMPTIONREPORT",
+      "description": "AMSCONSUMPTIONREPORT"
+    },
+    {
+      "name": "PUSHOECIDFILE2SF",
+      "description": "PUSHOECIDFILE2SF"
+    },
+    {
+      "name": "POSTREGISTERDEVI_II",
+      "description": "POSTREGISTERDEVI II"
+    },
+    {
+      "name": "AMSSUBMITINSTALLREQUESTASYNCPROC",
+      "description": "AMSSUBMITINSTALLREQUESTASYNCPROC"
+    },
+    {
+      "name": "PUSHBREWERHIER2SF",
+      "description": "PUSHBREWERHIER2SF"
+    },
+    {
+      "name": "AMSREPAIRBREWER",
+      "description": "AMSREPAIRBREWER"
+    },
+    {
+      "name": "GCP_TOKEN_GET",
+      "description": "GCP TOKEN GET"
+    },
+    {
+      "name": "AMSALERTSANDCONSUMPTIONCOUNTS",
+      "description": "AMSALERTSANDCONSUMPTIONCOUNTS"
+    },
+    {
+      "name": "GETALERTMESSAGES",
+      "description": "GETALERTMESSAGES"
+    },
+    {
+      "name": "AMSBREWERLISTCACHEREADER",
+      "description": "AMSBREWERLISTCACHEREADER"
+    },
+    {
+      "name": "AMSREPAIRSREXIST",
+      "description": "AMSREPAIRSREXIST"
+    },
+    {
+      "name": "AMPUPDATEUSER",
+      "description": "AMPUPDATEUSER"
+    },
+    {
+      "name": "AMPCREATEUSER",
+      "description": "AMPCREATEUSER"
+    },
+    {
+      "name": "BREWERHIER_PUB",
+      "description": "BREWERHIER PUB"
+    },
+    {
+      "name": "AMSBREWERCACHEPUB",
+      "description": "AMSBREWERCACHEPUB"
+    },
+    {
+      "name": "DEL_BIZACCOUNT_BO",
+      "description": "DEL BIZACCOUNT BO"
+    },
+    {
+      "name": "DEL_KADACCOUNTBO",
+      "description": "DEL KADACCOUNTBO"
+    },
+    {
+      "name": "REFRESHUSERBO",
+      "description": "REFRESHUSERBO"
+    },
+    {
+      "name": "ADDUSER2BIZACCOUNTBO",
+      "description": "ADDUSER2BIZACCOUNTBO"
+    },
+    {
+      "name": "ADDUSER2KADACCOUNTBO",
+      "description": "ADDUSER2KADACCOUNTBO"
+    },
+    {
+      "name": "RESEND_INVITE",
+      "description": "RESEND INVITE"
+    },
+    {
+      "name": "AMSGETUSERINFO",
+      "description": "AMSGETUSERINFO"
+    },
+    {
+      "name": "OEC_OKTA_UPDATE",
+      "description": "OEC OKTA UPDATE"
+    },
+    {
+      "name": "AMPUPDATEUSER",
+      "description": "AMPUPDATEUSER"
+    },
+    {
+      "name": "ALERTCLOSEINVOKE",
+      "description": "ALERTCLOSEINVOKE"
+    },
+    {
+      "name": "PUSHALERT2SF",
+      "description": "PUSHALERT2SF"
+    },
+    {
+      "name": "ALERTCLOSE",
+      "description": "ALERTCLOSE"
+    },
+    {
+      "name": "RESOLVEALLBREWERALERTS",
+      "description": "RESOLVEALLBREWERALERTS"
+    },
+    {
+      "name": "BREWERALERTSUPDATE",
+      "description": "BREWERALERTSUPDATE"
+    },
+    {
+      "name": "BREWERALERTSUPDATE",
+      "description": "BREWERALERTSUPDATE"
+    },
+    {
+      "name": "AUTOCR_SR_FOR_IOT_INCIDE",
+      "description": "AUTOCR SR FOR IOT INCIDE"
+    },
+    {
+      "name": "POSTREGISTERDEVICE",
+      "description": "POSTREGISTERDEVICE"
+    },
+    {
+      "name": "IOTGROUPREFRESH",
+      "description": "IOTGROUPREFRESH"
+    },
+    {
+      "name": "IOTGROUP_PUT",
+      "description": "IOTGROUP PUT"
+    },
+    {
+      "name": "PUB2OIOTACCOUNT",
+      "description": "PUB2OIOTACCOUNT"
+    },
+    {
+      "name": "GETCONSUMPTIONLI_INDIV",
+      "description": "GETCONSUMPTIONLI INDIV"
+    },
+    {
+      "name": "GETPODSCONSUMED",
+      "description": "GETPODSCONSUMED"
+    },
+    {
+      "name": "UNINSTALLBREWEROIOTCLEANUP",
+      "description": "UNINSTALLBREWEROIOTCLEANUP"
+    },
+    {
+      "name": "GETALERTMESSAGES_INDIV",
+      "description": "GETALERTMESSAGES INDIV"
+    },
+    {
+      "name": "IMPORTASSETSINTOOIOT",
+      "description": "IMPORTASSETSINTOOIOT"
+    },
+    {
+      "name": "UNINSTALLBREWEROECUPDATE",
+      "description": "UNINSTALLBREWEROECUPDATE"
+    },
+    {
+      "name": "UNINSTALLBREWERSRUPDATE",
+      "description": "UNINSTALLBREWERSRUPDATE"
+    },
+    {
+      "name": "GETAMPLASTSUCCESSFULLOGIN",
+      "description": "GETAMPLASTSUCCESSFULLOGIN"
+    },
+    {
+      "name": "AMPGETMODELTYPE",
+      "description": "AMPGETMODELTYPE"
+    },
+    {
+      "name": "AMSSUBMITINSTALLATIONREQUEST",
+      "description": "AMSSUBMITINSTALLATIONREQUEST"
+    },
+    {
+      "name": "AMSMEDIAPLAYLIST",
+      "description": "AMSMEDIAPLAYLIST"
+    },
+    {
+      "name": "AMGBREWERSTATISTICS",
+      "description": "AMGBREWERSTATISTICS"
+    },
+    {
+      "name": "AMPGETSTATELOV",
+      "description": "AMPGETSTATELOV"
+    },
+    {
+      "name": "AMPGETALERTRESOLUTION",
+      "description": "AMPGETALERTRESOLUTION"
+    },
+    {
+      "name": "AMPIDCSCREATEUSER",
+      "description": "AMPIDCSCREATEUSER"
+    },
+    {
+      "name": "AMSUPDATEBREWERSTATSREFRESHDTTM",
+      "description": "AMSUPDATEBREWERSTATSREFRESHDTTM"
+    },
+    {
+      "name": "AMPGETROLEFEATUREATTRIBUTEPERMIS",
+      "description": "AMPGETROLEFEATUREATTRIBUTEPERMIS"
+    },
+    {
+      "name": "REPAIRBREWER",
+      "description": "REPAIRBREWER"
+    },
+    {
+      "name": "PREPBREWERHIER2SFAPP",
+      "description": "PREPBREWERHIER2SFAPP"
+    },
+    {
+      "name": "AESENCRYPT",
+      "description": "AESENCRYPT"
+    },
+    {
+      "name": "AMSGETUSERLIST",
+      "description": "AMSGETUSERLIST"
+    },
+    {
+      "name": "PUB_PUSH2SF",
+      "description": "PUB PUSH2SF"
+    },
+    {
+      "name": "UNINSTALLBREWERSRCREATE",
+      "description": "UNINSTALLBREWERSRCREATE"
+    },
+    {
+      "name": "AMSGETAMPUSERINFOWITHACCOUNTS",
+      "description": "AMSGETAMPUSERINFOWITHACCOUNTS"
+    },
+    {
+      "name": "AMSGETAMPUSERINF_CALLER",
+      "description": "AMSGETAMPUSERINF CALLER"
+    },
+    {
+      "name": "GET_ACCOUNTS_BY_HIERARCH",
+      "description": "GET ACCOUNTS BY HIERARCH"
+    },
+    {
+      "name": "SNOWFLAKE_EXAMPLE",
+      "description": "SNOWFLAKE EXAMPLE"
+    },
+    {
+      "name": "UNINSTALLREFRESHBREWERDETAIL",
+      "description": "UNINSTALLREFRESHBREWERDETAIL"
+    },
+    {
+      "name": "ORACLEIOT_TELEMETRY_ADD",
+      "description": "ORACLEIOT TELEMETRY ADD"
+    },
+    {
+      "name": "AMSGETKADACCOUNTNAMEFILTER",
+      "description": "AMSGETKADACCOUNTNAMEFILTER"
+    },
+    {
+      "name": "AMSUPDATEBREWERDETAILS",
+      "description": "AMSUPDATEBREWERDETAILS"
+    },
+    {
+      "name": "CONSUMPTIONCOUNT",
+      "description": "CONSUMPTIONCOUNT"
+    },
+    {
+      "name": "CREATE_MEDIA_PLAYLIST_ITEMS",
+      "description": "CREATE MEDIA PLAYLIST ITEMS"
+    },
+    {
+      "name": "CREATE_MEDIA_PLAYLIST_OCI",
+      "description": "CREATE MEDIA PLAYLIST OCI"
+    },
+    {
+      "name": "AMSGETFILEFROMOCI",
+      "description": "AMSGETFILEFROMOCI"
+    },
+    {
+      "name": "AMSUPDATEMEDIAPLAYLIST",
+      "description": "AMSUPDATEMEDIAPLAYLIST"
+    },
+    {
+      "name": "AMSGETMEDIAPLAYLISTFORBREWER",
+      "description": "AMSGETMEDIAPLAYLISTFORBREWER"
+    },
+    {
+      "name": "AMSGETBUSINESSACCOUNTBYKADACCOUN",
+      "description": "AMSGETBUSINESSACCOUNTBYKADACCOUN"
+    },
+    {
+      "name": "AMSGETBUSINESSACCOUNTCONTACT",
+      "description": "AMSGETBUSINESSACCOUNTCONTACT"
+    },
+    {
+      "name": "AMSUPLOADMEDIAPLAYLISTITEMS",
+      "description": "AMSUPLOADMEDIAPLAYLISTITEMS"
+    },
+    {
+      "name": "CREATE_MEDIA_PLAYLIST",
+      "description": "CREATE MEDIA PLAYLIST"
+    },
+    {
+      "name": "AMSCREATEMEDIAPLAYLIST",
+      "description": "AMSCREATEMEDIAPLAYLIST"
+    },
+    {
+      "name": "AMSGETBREWERSFORMEDIAPLAYLIST",
+      "description": "AMSGETBREWERSFORMEDIAPLAYLIST"
+    },
+    {
+      "name": "GETCOUNTRYDATA",
+      "description": "GETCOUNTRYDATA"
+    },
+    {
+      "name": "BREWERSTATSPUBLISH",
+      "description": "BREWERSTATSPUBLISH"
+    },
+    {
+      "name": "AMSRESETPASSWORD",
+      "description": "AMSRESETPASSWORD"
+    },
+    {
+      "name": "REGISTEREDACCOUNTPUB",
+      "description": "REGISTEREDACCOUNTPUB"
+    },
+    {
+      "name": "AMPOKTACREATEUSER",
+      "description": "AMPOKTACREATEUSER"
+    },
+    {
+      "name": "PUB_IOTREGISTER",
+      "description": "PUB IOTREGISTER"
+    },
+    {
+      "name": "AMSUPDATEACCOUNT",
+      "description": "AMSUPDATEACCOUNT"
+    },
+    {
+      "name": "AMSCREATEACCOUNT",
+      "description": "AMSCREATEACCOUNT"
+    },
+    {
+      "name": "AMSCREATEOFFICEACCOUNT",
+      "description": "AMSCREATEOFFICEACCOUNT"
+    }
+  ],
   "paths": {
     "/PUB_PUSH2SF/1.0/alert_pub_push2sf": {
       "post": {
@@ -8062,26 +8557,6 @@
           "SNOWFLAKE_GET"
         ]
       }
-    }
-  },
-  "host": "virtserver.swaggerhub.com",
-  "schemes": [
-    "https"
-  ],
-  "securityDefinitions": {
-    "OAuth2": {
-      "tokenUrl": "https://example.com/oauth/token",
-      "authorizationUrl": "https://example.com/oauth/authorize",
-      "scopes": {
-        "read": "Grants read access",
-        "admin": "Grants read and write access to administrative information",
-        "write": "Grants write access"
-      },
-      "type": "oauth2",
-      "flow": "accessCode"
-    },
-    "basicAuth": {
-      "type": "basic"
     }
   },
   "definitions": {
@@ -21418,500 +21893,22 @@
           "type": "number"
         }
       }
-    },
-	"anyType": {
-		"type": "object"
-	}
-  },
-  "swagger": "2.0",
-  "info": {
-    "contact": {
-      "email": "bryan.arndorfer_ex@kdrp.com"
-    },
-    "description": "These are OIC Integration APIs for Brewer Management",
-    "title": "AMP OIC APIs",
-    "version": "1.0.0"
-  },
-  "tags": [
-    {
-      "name": "SNOWFLAKE_GET",
-      "description": "SNOWFLAKE GET"
-    },
-    {
-      "name": "BREWERSTATSUPDATE",
-      "description": "BREWERSTATSUPDATE"
-    },
-    {
-      "name": "AMSGETUSERINFOWI_POPULATE",
-      "description": "AMSGETUSERINFOWI POPULATE"
-    },
-    {
-      "name": "DD_NOTIFY",
-      "description": "DD NOTIFY"
-    },
-    {
-      "name": "OIC_NOTIFICATIONSERV",
-      "description": "OIC NOTIFICATIONSERV"
-    },
-    {
-      "name": "AMSGETBREWERLIST",
-      "description": "AMSGETBREWERLIST"
-    },
-    {
-      "name": "AMSGETBREWERLIST",
-      "description": "AMSGETBREWERLIST"
-    },
-    {
-      "name": "AMSBREWERLISTCACHEUPDATER",
-      "description": "AMSBREWERLISTCACHEUPDATER"
-    },
-    {
-      "name": "AMSGETBREWERDETAILINSTALL",
-      "description": "AMSGETBREWERDETAILINSTALL"
-    },
-    {
-      "name": "GETBREWERATTRIBUTESFROMAZURE",
-      "description": "GETBREWERATTRIBUTESFROMAZURE"
-    },
-    {
-      "name": "AMSGETBREWERDETAIL",
-      "description": "AMSGETBREWERDETAIL"
-    },
-    {
-      "name": "UNINSTALLBREWERAZUREIOTCLEANUP",
-      "description": "UNINSTALLBREWERAZUREIOTCLEANUP"
-    },
-    {
-      "name": "AMSREGISTERBREWER",
-      "description": "AMSREGISTERBREWER"
-    },
-    {
-      "name": "UNINSTALLBREWERAZURERESET",
-      "description": "UNINSTALLBREWERAZURERESET"
-    },
-    {
-      "name": "POSTREGISTERDEVICEACTIVATESIM",
-      "description": "POSTREGISTERDEVICEACTIVATESIM"
-    },
-    {
-      "name": "GETALERTMESSAGES",
-      "description": "GETALERTMESSAGES"
-    },
-    {
-      "name": "AMSGETUSERINFO",
-      "description": "AMSGETUSERINFO"
-    },
-    {
-      "name": "AMSGETUSERINFOWITHACCOUNTS",
-      "description": "AMSGETUSERINFOWITHACCOUNTS"
-    },
-    {
-      "name": "ADDUSER2USERBO",
-      "description": "ADDUSER2USERBO"
-    },
-    {
-      "name": "AMSALERTSANDCONSUMPTIONCOUNTS",
-      "description": "AMSALERTSANDCONSUMPTIONCOUNTS"
-    },
-    {
-      "name": "AMSGETUSERINFOWITHROLEINFO",
-      "description": "AMSGETUSERINFOWITHROLEINFO"
-    },
-    {
-      "name": "GETCONSUMPTIONLISTS",
-      "description": "GETCONSUMPTIONLISTS"
-    },
-    {
-      "name": "AMSUNINSTALLBREWER",
-      "description": "AMSUNINSTALLBREWER"
-    },
-    {
-      "name": "PUSH2ALERTBO",
-      "description": "PUSH2ALERTBO"
-    },
-    {
-      "name": "PUSHBREWERHIER2SF",
-      "description": "PUSHBREWERHIER2SF"
-    },
-    {
-      "name": "GETBREWRANK",
-      "description": "GETBREWRANK"
-    },
-    {
-      "name": "SNOWFLAKE_GET",
-      "description": "SNOWFLAKE GET"
-    },
-    {
-      "name": "CONSUMPTIONCOUNT2",
-      "description": "CONSUMPTIONCOUNT2"
-    },
-    {
-      "name": "AMSNEWESTBREWERSWEEKLY",
-      "description": "AMSNEWESTBREWERSWEEKLY"
-    },
-    {
-      "name": "UNINSTALLBREWERMAININTEGRATION",
-      "description": "UNINSTALLBREWERMAININTEGRATION"
-    },
-    {
-      "name": "AMSMANAGEACCOUNTACCESS",
-      "description": "AMSMANAGEACCOUNTACCESS"
-    },
-    {
-      "name": "GETALERTMESSAGES",
-      "description": "GETALERTMESSAGES"
-    },
-    {
-      "name": "PUSHALERT2SF",
-      "description": "PUSHALERT2SF"
-    },
-    {
-      "name": "AMSCONSUMPTIONREPORT",
-      "description": "AMSCONSUMPTIONREPORT"
-    },
-    {
-      "name": "PUSHOECIDFILE2SF",
-      "description": "PUSHOECIDFILE2SF"
-    },
-    {
-      "name": "POSTREGISTERDEVI_II",
-      "description": "POSTREGISTERDEVI II"
-    },
-    {
-      "name": "AMSSUBMITINSTALLREQUESTASYNCPROC",
-      "description": "AMSSUBMITINSTALLREQUESTASYNCPROC"
-    },
-    {
-      "name": "PUSHBREWERHIER2SF",
-      "description": "PUSHBREWERHIER2SF"
-    },
-    {
-      "name": "AMSREPAIRBREWER",
-      "description": "AMSREPAIRBREWER"
-    },
-    {
-      "name": "GCP_TOKEN_GET",
-      "description": "GCP TOKEN GET"
-    },
-    {
-      "name": "AMSALERTSANDCONSUMPTIONCOUNTS",
-      "description": "AMSALERTSANDCONSUMPTIONCOUNTS"
-    },
-    {
-      "name": "GETALERTMESSAGES",
-      "description": "GETALERTMESSAGES"
-    },
-    {
-      "name": "AMSBREWERLISTCACHEREADER",
-      "description": "AMSBREWERLISTCACHEREADER"
-    },
-    {
-      "name": "AMSREPAIRSREXIST",
-      "description": "AMSREPAIRSREXIST"
-    },
-    {
-      "name": "AMPUPDATEUSER",
-      "description": "AMPUPDATEUSER"
-    },
-    {
-      "name": "AMPCREATEUSER",
-      "description": "AMPCREATEUSER"
-    },
-    {
-      "name": "BREWERHIER_PUB",
-      "description": "BREWERHIER PUB"
-    },
-    {
-      "name": "AMSBREWERCACHEPUB",
-      "description": "AMSBREWERCACHEPUB"
-    },
-    {
-      "name": "DEL_BIZACCOUNT_BO",
-      "description": "DEL BIZACCOUNT BO"
-    },
-    {
-      "name": "DEL_KADACCOUNTBO",
-      "description": "DEL KADACCOUNTBO"
-    },
-    {
-      "name": "REFRESHUSERBO",
-      "description": "REFRESHUSERBO"
-    },
-    {
-      "name": "ADDUSER2BIZACCOUNTBO",
-      "description": "ADDUSER2BIZACCOUNTBO"
-    },
-    {
-      "name": "ADDUSER2KADACCOUNTBO",
-      "description": "ADDUSER2KADACCOUNTBO"
-    },
-    {
-      "name": "RESEND_INVITE",
-      "description": "RESEND INVITE"
-    },
-    {
-      "name": "AMSGETUSERINFO",
-      "description": "AMSGETUSERINFO"
-    },
-    {
-      "name": "OEC_OKTA_UPDATE",
-      "description": "OEC OKTA UPDATE"
-    },
-    {
-      "name": "AMPUPDATEUSER",
-      "description": "AMPUPDATEUSER"
-    },
-    {
-      "name": "ALERTCLOSEINVOKE",
-      "description": "ALERTCLOSEINVOKE"
-    },
-    {
-      "name": "PUSHALERT2SF",
-      "description": "PUSHALERT2SF"
-    },
-    {
-      "name": "ALERTCLOSE",
-      "description": "ALERTCLOSE"
-    },
-    {
-      "name": "RESOLVEALLBREWERALERTS",
-      "description": "RESOLVEALLBREWERALERTS"
-    },
-    {
-      "name": "BREWERALERTSUPDATE",
-      "description": "BREWERALERTSUPDATE"
-    },
-    {
-      "name": "BREWERALERTSUPDATE",
-      "description": "BREWERALERTSUPDATE"
-    },
-    {
-      "name": "AUTOCR_SR_FOR_IOT_INCIDE",
-      "description": "AUTOCR SR FOR IOT INCIDE"
-    },
-    {
-      "name": "POSTREGISTERDEVICE",
-      "description": "POSTREGISTERDEVICE"
-    },
-    {
-      "name": "IOTGROUPREFRESH",
-      "description": "IOTGROUPREFRESH"
-    },
-    {
-      "name": "IOTGROUP_PUT",
-      "description": "IOTGROUP PUT"
-    },
-    {
-      "name": "PUB2OIOTACCOUNT",
-      "description": "PUB2OIOTACCOUNT"
-    },
-    {
-      "name": "GETCONSUMPTIONLI_INDIV",
-      "description": "GETCONSUMPTIONLI INDIV"
-    },
-    {
-      "name": "GETPODSCONSUMED",
-      "description": "GETPODSCONSUMED"
-    },
-    {
-      "name": "UNINSTALLBREWEROIOTCLEANUP",
-      "description": "UNINSTALLBREWEROIOTCLEANUP"
-    },
-    {
-      "name": "GETALERTMESSAGES_INDIV",
-      "description": "GETALERTMESSAGES INDIV"
-    },
-    {
-      "name": "IMPORTASSETSINTOOIOT",
-      "description": "IMPORTASSETSINTOOIOT"
-    },
-    {
-      "name": "UNINSTALLBREWEROECUPDATE",
-      "description": "UNINSTALLBREWEROECUPDATE"
-    },
-    {
-      "name": "UNINSTALLBREWERSRUPDATE",
-      "description": "UNINSTALLBREWERSRUPDATE"
-    },
-    {
-      "name": "GETAMPLASTSUCCESSFULLOGIN",
-      "description": "GETAMPLASTSUCCESSFULLOGIN"
-    },
-    {
-      "name": "AMPGETMODELTYPE",
-      "description": "AMPGETMODELTYPE"
-    },
-    {
-      "name": "AMSSUBMITINSTALLATIONREQUEST",
-      "description": "AMSSUBMITINSTALLATIONREQUEST"
-    },
-    {
-      "name": "AMSMEDIAPLAYLIST",
-      "description": "AMSMEDIAPLAYLIST"
-    },
-    {
-      "name": "AMGBREWERSTATISTICS",
-      "description": "AMGBREWERSTATISTICS"
-    },
-    {
-      "name": "AMPGETSTATELOV",
-      "description": "AMPGETSTATELOV"
-    },
-    {
-      "name": "AMPGETALERTRESOLUTION",
-      "description": "AMPGETALERTRESOLUTION"
-    },
-    {
-      "name": "AMPIDCSCREATEUSER",
-      "description": "AMPIDCSCREATEUSER"
-    },
-    {
-      "name": "AMSUPDATEBREWERSTATSREFRESHDTTM",
-      "description": "AMSUPDATEBREWERSTATSREFRESHDTTM"
-    },
-    {
-      "name": "AMPGETROLEFEATUREATTRIBUTEPERMIS",
-      "description": "AMPGETROLEFEATUREATTRIBUTEPERMIS"
-    },
-    {
-      "name": "REPAIRBREWER",
-      "description": "REPAIRBREWER"
-    },
-    {
-      "name": "PREPBREWERHIER2SFAPP",
-      "description": "PREPBREWERHIER2SFAPP"
-    },
-    {
-      "name": "AESENCRYPT",
-      "description": "AESENCRYPT"
-    },
-    {
-      "name": "AMSGETUSERLIST",
-      "description": "AMSGETUSERLIST"
-    },
-    {
-      "name": "PUB_PUSH2SF",
-      "description": "PUB PUSH2SF"
-    },
-    {
-      "name": "UNINSTALLBREWERSRCREATE",
-      "description": "UNINSTALLBREWERSRCREATE"
-    },
-    {
-      "name": "AMSGETAMPUSERINFOWITHACCOUNTS",
-      "description": "AMSGETAMPUSERINFOWITHACCOUNTS"
-    },
-    {
-      "name": "AMSGETAMPUSERINF_CALLER",
-      "description": "AMSGETAMPUSERINF CALLER"
-    },
-    {
-      "name": "GET_ACCOUNTS_BY_HIERARCH",
-      "description": "GET ACCOUNTS BY HIERARCH"
-    },
-    {
-      "name": "SNOWFLAKE_EXAMPLE",
-      "description": "SNOWFLAKE EXAMPLE"
-    },
-    {
-      "name": "UNINSTALLREFRESHBREWERDETAIL",
-      "description": "UNINSTALLREFRESHBREWERDETAIL"
-    },
-    {
-      "name": "ORACLEIOT_TELEMETRY_ADD",
-      "description": "ORACLEIOT TELEMETRY ADD"
-    },
-    {
-      "name": "AMSGETKADACCOUNTNAMEFILTER",
-      "description": "AMSGETKADACCOUNTNAMEFILTER"
-    },
-    {
-      "name": "AMSUPDATEBREWERDETAILS",
-      "description": "AMSUPDATEBREWERDETAILS"
-    },
-    {
-      "name": "CONSUMPTIONCOUNT",
-      "description": "CONSUMPTIONCOUNT"
-    },
-    {
-      "name": "CREATE_MEDIA_PLAYLIST_ITEMS",
-      "description": "CREATE MEDIA PLAYLIST ITEMS"
-    },
-    {
-      "name": "CREATE_MEDIA_PLAYLIST_OCI",
-      "description": "CREATE MEDIA PLAYLIST OCI"
-    },
-    {
-      "name": "AMSGETFILEFROMOCI",
-      "description": "AMSGETFILEFROMOCI"
-    },
-    {
-      "name": "AMSUPDATEMEDIAPLAYLIST",
-      "description": "AMSUPDATEMEDIAPLAYLIST"
-    },
-    {
-      "name": "AMSGETMEDIAPLAYLISTFORBREWER",
-      "description": "AMSGETMEDIAPLAYLISTFORBREWER"
-    },
-    {
-      "name": "AMSGETBUSINESSACCOUNTBYKADACCOUN",
-      "description": "AMSGETBUSINESSACCOUNTBYKADACCOUN"
-    },
-    {
-      "name": "AMSGETBUSINESSACCOUNTCONTACT",
-      "description": "AMSGETBUSINESSACCOUNTCONTACT"
-    },
-    {
-      "name": "AMSUPLOADMEDIAPLAYLISTITEMS",
-      "description": "AMSUPLOADMEDIAPLAYLISTITEMS"
-    },
-    {
-      "name": "CREATE_MEDIA_PLAYLIST",
-      "description": "CREATE MEDIA PLAYLIST"
-    },
-    {
-      "name": "AMSCREATEMEDIAPLAYLIST",
-      "description": "AMSCREATEMEDIAPLAYLIST"
-    },
-    {
-      "name": "AMSGETBREWERSFORMEDIAPLAYLIST",
-      "description": "AMSGETBREWERSFORMEDIAPLAYLIST"
-    },
-    {
-      "name": "GETCOUNTRYDATA",
-      "description": "GETCOUNTRYDATA"
-    },
-    {
-      "name": "BREWERSTATSPUBLISH",
-      "description": "BREWERSTATSPUBLISH"
-    },
-    {
-      "name": "AMSRESETPASSWORD",
-      "description": "AMSRESETPASSWORD"
-    },
-    {
-      "name": "REGISTEREDACCOUNTPUB",
-      "description": "REGISTEREDACCOUNTPUB"
-    },
-    {
-      "name": "AMPOKTACREATEUSER",
-      "description": "AMPOKTACREATEUSER"
-    },
-    {
-      "name": "PUB_IOTREGISTER",
-      "description": "PUB IOTREGISTER"
-    },
-    {
-      "name": "AMSUPDATEACCOUNT",
-      "description": "AMSUPDATEACCOUNT"
-    },
-    {
-      "name": "AMSCREATEACCOUNT",
-      "description": "AMSCREATEACCOUNT"
-    },
-    {
-      "name": "AMSCREATEOFFICEACCOUNT",
-      "description": "AMSCREATEOFFICEACCOUNT"
     }
-  ]
+  },
+  "securityDefinitions": {
+    "OAuth2": {
+      "tokenUrl": "https://example.com/oauth/token",
+      "authorizationUrl": "https://example.com/oauth/authorize",
+      "scopes": {
+        "read": "Grants read access",
+        "admin": "Grants read and write access to administrative information",
+        "write": "Grants write access"
+      },
+      "type": "oauth2",
+      "flow": "accessCode"
+    },
+    "basicAuth": {
+      "type": "basic"
+    }
+  }
 }
