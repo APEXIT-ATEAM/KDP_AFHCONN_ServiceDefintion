@@ -21418,7 +21418,10 @@
           "type": "number"
         }
       }
-    }
+    },
+	"anyType": {
+		"type": "object"
+	}
   },
   "swagger": "2.0",
   "info": {
