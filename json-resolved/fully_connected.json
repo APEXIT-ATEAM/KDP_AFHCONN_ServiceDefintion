@@ -21893,6 +21893,9 @@
           "type": "number"
         }
       }
+    },
+    "anyType": {
+      "type": "object"
     }
   },
   "securityDefinitions": {
