@@ -119,10 +119,6 @@
       "description": "GETBREWRANK"
     },
     {
-      "name": "SNOWFLAKE_GET",
-      "description": "SNOWFLAKE GET"
-    },
-    {
       "name": "CONSUMPTIONCOUNT2",
       "description": "CONSUMPTIONCOUNT2"
     },
@@ -173,10 +169,6 @@
     {
       "name": "GCP_TOKEN_GET",
       "description": "GCP TOKEN GET"
-    },
-    {
-      "name": "AMSALERTSANDCONSUMPTIONCOUNTS",
-      "description": "AMSALERTSANDCONSUMPTIONCOUNTS"
     },
     {
       "name": "GETALERTMESSAGES",
@@ -1847,7 +1839,7 @@
           },
           "default": {
             "schema": {
-              "$ref": "#/definitions/getAccountPartnerGroupId-response-wrapper"
+              "$ref": "#/definitions/alertsAndConsumptionCounts-response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -5218,7 +5210,7 @@
           },
           "default": {
             "schema": {
-              "$ref": "#/definitions/getAccountPartnerGroupId-response-wrapper"
+              "$ref": "#/definitions/alertsAndConsumptionCounts-response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -6852,7 +6844,7 @@
           },
           "default": {
             "schema": {
-              "$ref": "#/definitions/getAccountPartnerGroupId-response-wrapper"
+              "$ref": "#/definitions/consumptionCount-response-wrapper"
             },
             "description": "A sample description of the Response"
           }
@@ -20831,7 +20823,7 @@
         }
       }
     },
-    "getAccountPartnerGroupId-response-wrapper": {
+    "consumptionCount-response-wrapper": {
       "type": "object",
       "required": [
         "CustomerAccountId",
@@ -20847,6 +20839,54 @@
         },
         "CustomerAccountId": {
           "type": "string"
+        }
+      }
+    },
+	"alertsAndConsumptionCounts-response-wrapper" : {
+      "type" : "object",
+      "required" : [ "KADAccountId", "counts", "criticalAlerts", "notifications" ],
+      "properties" : {
+        "KADAccountId" : {
+          "type" : "string"
+        },
+        "counts" : {
+          "type" : "object",
+          "properties" : {
+            "alertcount" : {
+              "type" : "number"
+            },
+            "consumptioncount" : {
+              "type" : "number"
+            }
+          }
+        },
+        "criticalAlerts" : {
+          "type" : "object",
+          "properties" : {
+            "critical" : {
+              "type" : "number"
+            },
+            "affectedBrewers" : {
+              "type" : "number"
+            },
+            "affectedLocations" : {
+              "type" : "number"
+            }
+          }
+        },
+        "notifications" : {
+          "type" : "object",
+          "properties" : {
+            "notifications" : {
+              "type" : "number"
+            },
+            "affectedBrewers" : {
+              "type" : "number"
+            },
+            "affectedLocations" : {
+              "type" : "number"
+            }
+          }
         }
       }
     },
